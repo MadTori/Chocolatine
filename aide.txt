@@ -1,0 +1,26 @@
+Espace entre les déclaraitons de variables et les instructions
+Pas besoin de return à la fin des void
+
+Pensez à ajouter un .gitignore pour les .o / .a
+Makefile (-5 / 0) :
+$RM = rm -f : Règle implicite, pas besoin de la définir
+$CC manquant
+
+CFLAGS: -g3 en trop et -Wextra manquant
+ 
+/!\ $(SRC) dans le linkage
+
+.PHONY: all manquant
+
+Memory management (-10 / 0) :
+malloc pas check
+
+Pensez à initialiser vos variables
+
+Crash s'il n'y a pas de fichiers dans le dossier, ou qu'un fichier n'a pas les perms de read
+
+Ils ont fait crash valgrind haha
+(on n'arrive plus à faire fonctionner le projet après avoir effacé la pokecfg du sujet)
+Understanding of the project (5 / 5) :
+All good
+Bonus (0 / 22) :
